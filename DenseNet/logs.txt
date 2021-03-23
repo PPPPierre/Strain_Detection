@@ -1,0 +1,6 @@
+epoch: 1/1, train_loss: 0.8606, train_acc: 0.5000, test_loss: 0.3302, test_acc: 1.0000 
+epoch: 1/1, train_loss: 0.8530, train_acc: 0.5000, test_loss: 0.8689, test_acc: 0.5000 
+epoch: 1/1, train_loss: 0.8444, train_acc: 0.5000, test_loss: 1.0487, test_acc: 0.0000 
+epoch: 1/1, train_loss: 0.8338, train_acc: 0.5000, test_loss: 1.1134, test_acc: 0.0000 
+epoch: 1/1, train_loss: 0.7605, train_acc: 0.5000, test_loss: 0.7037, test_acc: 0.5000 
+epoch: 1/1, train_loss: 0.8585, train_acc: 0.3333, test_loss: 0.6259, test_acc: 0.8333 
