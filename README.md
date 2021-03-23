@@ -27,19 +27,17 @@ One possible method is to create short paths from early layers to later layers.
 
 DenseNet applies this idea. Compared with other deep CNN, it has several strengths:
 
-Relatively fewer parameters for comparable accuracy.
-it connects all matching layers directly with each other, which ensures maximum information flow between layers. 
-It has a regularizing effect, which makes it easier to train.
-It relieves problems of gradient vanishing and model degradation
+1. Relatively fewer parameters for comparable accuracy.
+2. It connects all matching layers directly with each other, which ensures maximum information flow between layers. 
+3. It has a regularizing effect, which makes it easier to train.
+4. It relieves problems of gradient vanishing and model degradation
 
 ## ShuffleNet
 Besides accuracy, speed is another important consideration. Real world tasks often aim at obtaining best accuracy under a limited time and computational budget. Therefore,  lightweight architectures are motivated
 
 Small convolution, especially 1*1 convolution has been proved to be a good way to be ‘light’, but always companied with troubling computation complexity
  
-ShuffleNet propose 2 methods to deal with it:
-
-Pointwise group convolution, which helps to reduce computation complexity.
-
-Channel shuffle, which reduces the loss of information owing to the group convolution.
+1. ShuffleNet propose 2 methods to deal with it:
+2. Pointwise group convolution, which helps to reduce computation complexity.
+3. Channel shuffle, which reduces the loss of information owing to the group convolution.
 
