@@ -1,5 +1,5 @@
-# Strain_Detection
-Deep learning based Strain Detection for Onboard Vision Systems 
+# Stain_Detection
+Deep learning based Stain Detection for Onboard Vision Systems 
 
 # Background
 Onboard camera is widely used for ADAS (Advanced Driver Assistant System) and autonomous driving systems. However, as a vehicle operates on different conditions, camera lens may get stains (such as mud, oil, etc.) on top of it. In such case, a stain/occlusion-recognition algorithm is needed to enable the wiper to clean the lens in different ways according to the type of stains . 
